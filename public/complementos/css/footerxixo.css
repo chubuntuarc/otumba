@@ -1,0 +1,40 @@
+/* Footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  
+  
+ 
+  
+  background: 
+  /* color overlay */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.77), 
+      rgba(0, 0, 0, 0.77)
+    ),
+    /* image to overlay */
+    url();
+}
+
+
+/* Custom footer CSS
+-------------------------------------------------- */
+
+.containerfooter {
+  width: auto;
+  max-width: 777px;
+  padding: 0 20px;
+}
+.containerfooter .text-muted {
+  margin: 15px;
+}
+.footertext {
+  color: #ffffff;
+}

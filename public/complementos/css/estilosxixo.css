@@ -1,0 +1,48 @@
+
+.jumbotron-xixo{
+
+background:#4aa3a7;
+color:#ffffff;
+padding:20px 0;
+margin-bottom:30px ;
+	
+}
+
+.demoHeaders{ 
+width:auto;
+height: auto;
+color:#ffffff;
+-webkit-box-flex: 1;
+ box-flex: 1;
+-moz-box-flex: 1;
+	
+
+
+text-shadow: 3px 3px 15px #000000;
+
+font: bold 40px Philosopher-Bold;}
+
+.titulosmenuvalleteoti { 
+width:auto;
+height: auto;
+background:#88172c;
+border-color:#ffffff;
+-webkit-box-flex: 1;
+ box-flex: 1;
+-moz-box-flex: 1;
+	color:#88172c;	
+text-shadow: 3px 3px 15px #000000;
+
+font: bold 15px Philosopher-Bold;}
+
+.titulosmenuvalleteoti li:hover {
+	
+color:#88172c;	
+	
+	
+}
+
+
+
+
+
