@@ -3,10 +3,10 @@
 
 
 @media all and (max-width: 600px){
-	div{
+	.div{
 		width:100%;
 		height:auto;
-		margin-left:10px;
+		margin-left:0px;
 		margin-right:20px;
 	}
 }
@@ -48,11 +48,35 @@ img, object, video, flexbox{max-width:100%;}
 	}
 
 
-
+@media all and (max-width: 600px){
 .carousel{width:100%;}
 
 .slideshow{width:100%;}
 .xixonuevo{width:100%;}
+.carousel-caption{
+	margin:-13%;
+	
+	width:40%;
+	height:100%;}
+	
+	.carousel-control{}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

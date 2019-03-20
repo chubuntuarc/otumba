@@ -34,4 +34,27 @@
 .article-slide .carousel-indicators .active img {
     border: 2px solid #428BCA;
     opacity: 0.7;
+	
+  
+
 }
+.carousel-caption {
+	margin:auto;
+  text-align: center;
+  color: #fff;
+  background: rgba(0,0,0,0.46);
+background: -moz-linear-gradient(left, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.46)), color-stop(100%, rgba(19,19,19,0.46)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#131313', GradientType=1 );
+ margin-left:1px;
+
+    
+   
+  
+}
+
+

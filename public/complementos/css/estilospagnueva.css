@@ -1,0 +1,101 @@
+header {
+	background:#2c3e50;
+	color:#fff;
+}
+
+.main {
+	background:#f2f2f2;
+}
+
+
+
+.color2 {
+	background: #FFFFFFe;
+	color:#fff;
+}
+
+.color3 {
+	background:#E5F0F0;
+	color:#000400;
+}
+
+
+
+
+aside {
+	background:#eofffff;
+	color:#060500;
+}
+
+footer {
+
+	
+	font-family:Gotham Book;
+	font-style: italic ;
+	font-size: 4pt;
+	
+	color:#fff;
+}
+li {
+
+	color:#000000;
+}
+
+header{
+color:#ACFA58;
+background:#ACFA58;
+}
+@font-face{
+	font-family:Gotham Book;
+	src:url(Font/Gotham Book.ttf); 
+}
+
+h4,h2{
+	font-family:Gotham Book;	
+}
+td{
+	font-family:Gotham Book;	
+}
+.color4{
+	background-color: #B5D5B0;
+}
+p{
+	font-family:Gotham Book;	
+}
+
+.color7{
+background-color:#060000;
+color:#FBF9F9;
+
+}
+aside{
+	display: block;
+	float: right;
+	max-width: 32%;
+	height: 480px;
+	border-radius: 20px;
+	background:#c8e19d;
+
+
+}
+
+
+.fondoparapeques{
+	
+  text-align: center;
+  color: #fff;
+  background: rgba(0,0,0,0.46);
+
+background: -moz-linear-gradient(left, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.46)), color-stop(100%, rgba(19,19,19,0.46)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.46) 0%, rgba(19,19,19,0.46) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#131313', GradientType=1 );
+
+
+    
+   
+  
+}

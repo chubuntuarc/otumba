@@ -4,10 +4,7 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
+
 #footer {
   
   
@@ -29,7 +26,7 @@ body {
 
 .containerfooter {
   width: auto;
-  max-width: 777px;
+  max-width: auto;
   padding: 0 20px;
 }
 .containerfooter .text-muted {
