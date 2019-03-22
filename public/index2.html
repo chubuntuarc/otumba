@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>Otumba Online, Estado de México</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="nav-extended" style="background-color: #1B3A23">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><img src="img/LOGOOTUMBAultimo.png" alt="" style="height: 78px; margin-left: 20px;"></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger" ><i class="material-icons">menu</i></a>
+        </div>
+        <div class="nav-content hide-on-med-and-down center-align">
+            <ul class="tabs center tabs-transparent z-depth-1">
+                <li class="tab col s2 active materialboxed" data-caption="Glifo emblemático de Otumba" width="250" src="img/fondoconglifovivamexico1200x960.jpg"><a href="#!">Un otomi</a></li>
+                <li class="tab col s2"><a href="#test2">¿Quiénes somos?</a></li>
+                <li class="tab col s2"><a href="#test3">Valle de Teotihuacán</a></li>
+                <li class="tab col s2"><a href="#test4">Anúnciate en esta página</a></li>
+                <li class="tab col s2"><a href="#test4">¿Como llegar?</a></li>
+                <li class="tab col s2"><a href="#test4">Co Fundadores</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <a href="#name" style="color:#1B3A23;text-decoration: none"><span class="name">Contacto</span></a>
+                <a href="#email" style="color:#1B3A23;text-decoration: none"><span class="email">56 10  357 773</span></a>
+            </div>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li class="materialboxed" data-caption="Glifo emblemático de Otumba" width="250" src="img/fondoconglifovivamexico1200x960.jpg"><a href="#!"  style="color:#1B3A23;text-decoration: none" >Un otomi</a></li>
+        <li><a href="#test2">¿Quiénes somos?</a></li>
+        <li><a href="#test3">Valle de Teotihuacán</a></li>
+        <li><a href="#test4">Anúnciate en esta página</a></li>
+        <li><a href="#test4">¿Como llegar?</a></li>
+        <li><a href="#test4">Co Fundadores</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="#!" sytle="margin-top: -28px !important; font-size: 10px !important;">&reg; 2019 Programadores Asociados</a></li>
+    </ul>
+
+    <img src="img/parallax1.jpg" width="100%" class="z-depth-2">
+
+    <div class="col s12">
+        <p class="center-align" style="font-size: 1.3rem; color: #1B3A23">¡Bienvenido! Descubre ¿qué puedes hacer en Otumba? y lo que encontraras en esta web.</p>
+    </div>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var sidenav = document.querySelectorAll('.sidenav');
+    var sideInstances = M.Sidenav.init(sidenav);
+
+    var materialboxed = document.querySelectorAll('.materialboxed');
+    var materialboxedInstances = M.Materialbox.init(materialboxed);
+
+    var parallax = document.querySelectorAll('.parallax');
+    var parallaxInstances = M.Parallax.init(parallax);
+    });
+  </script>
+</body>
+</html>
