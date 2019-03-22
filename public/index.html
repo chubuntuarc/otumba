@@ -1,243 +1,647 @@
+<!--<template method="setHeaders" Content-Type="text/html"  response="{response}" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+--><html xmlns="http://www.w3.org/1999/xhtml">
 
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Otumba Online, Estado de México</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta charset="description" content="xixo teotihuacan" />
-    <meta charset="keywprds" content="piramides,xixoteotihuacan,San Juan teotihuacan, teotihuacan, cultura, arte, divercion, pagina oficial xixoteotihuacan,xixoteotihuacan,cultura arte y divercion, vive xixo, teotihuacan de noche, xixo partybus,un lugar para divertirse en teotihuacan" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <!--Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!--Estilo del sitio-->
-    <link rel="stylesheet" href="complementos/css/estilospagnueva.css">
-    <link rel="stylesheet" href="complementos/css/style.css">
-    <link rel="stylesheet" href="complementos/css/footerxixo.css" />
-    <link rel="stylesheet" href="complementos/css/jquery-ui.css" >
-    <link rel="stylesheet" href="complementos/css/estilosxixo.css">
-    <link rel="stylesheet" href="complementos/css/estiloglovito.css">
-    <link rel="stylesheet" href="complementos/css/reveal.css">
-    <!--Scripts-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools.js"></script>
+<head>
+            <!-- aqui los scripts del boostrap  -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilospagnueva.css">
+    <link rel="stylesheet" href="lightbox.css">    
+           
+              <!-- aqui los scripts del boostrap terminan -->
+           <link rel="stylesheet" href="estilo.css" type="text/css"/>
+           <link rel="stylesheet" href="mainnuevo2.css" />
+      	<link rel="stylesheet" href="images/fonts.css">
+	<script src="complementos/js/jquery-latest.js"></script>
+	<script src="complementos/js/mainn.js"></script>
+	<script src="complementos/js/cambiar.js"></script>
+         
+          <!-- Attach our CSS -->
+                     <link rel="stylesheet" href="reveal.css">
+	  	
+	  
+		<!-- Attach necessary scripts -->
+		<!-- <script type="text/javascript" src="jquery-1.4.4.min.js"></script> -->
+	  <link rel='stylesheet' type='text/css' media='all' href='{webpath}/swbadmin/js/dojo/dijit/themes/soria/soria.css' />
+            <link rel='stylesheet' type='text/css' media='all' href='{webpath}/swbadmin/css/swb_portal.css' />
+            <script type="text/javascript">
+                 var djConfig = {
+                 parseOnLoad: true,
+                   isDebug: false
+                                   };
+           </script>
+           <script type="text/javascript" src="{webpath}/swbadmin/js/dojo/dojo/dojo.js"></script>
+           <script type="text/javascript" src="{webpath}/swbadmin/js/swb.js"></script>
+	    <script type="text/javascript" src="jquery-1.6.min.js"></script>
+	    <script type="text/javascript" src="jquery.reveal.js"></script>
+		
+	    <script type="text/javascript" src="jquery-1.4.4.min"></script>
+	
+                     <style type="text/css">  
+			
+			
+           
+<!-- aqui termina el codigo que yo pegue codigo 1-->
 
-    <!--Load Bootstrap css-->
+<style type="text/css">
+
+</style>
+
+<title>Otumba Online, Estado de México</title>
+
+ <!-- estos on los scrips para el slayder cicle-->
+           
+
+
+<!-- Attach our CSS este es mi stilecodigo css este es el codigo de la cortina el css botones -->
+<style>
+.articulo, .articulo_jquery, .articulo_mootools {
+  position: relative;
+  width: 130px;
+  overflow: hidden;
+  border: Opx solid #000;
+  height: 70px;
+
+}
+  
+.articulo a, .articulo_jquery a, .articulo_mootools a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+  
+.imagen_articulo, .detalles_articulo {
+  padding: AUTO;
+  height: AUTO;
+}
+  
+.imagen_articulo {
+  margin-top: 0;
+
+border-radius:30px 30px 30px 30px;
+box-shadow: 0px 5px 7px #939393;
+-webkit-transition:padding-right 0.6s;
+color:white;
+font-family:Times New Roman;
+text-shadow: 1px 2px 5px #000000;
+
+  -webkit-transition-property: margin-top;
+  -webkit-transition-duration: .5s;
+  
+  -moz-transition-property: margin-top;
+  -moz-transition-duration: .5s;
+  
+  -o-transition-property: margin-top;
+  -o-transition-duration: .5s;
+  
+  -ms-transition-property: margin-top;
+  -ms-transition-duration: .5s;
+
+}
+.imagen_articulo h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffcc00;
+  font-family: "Open Sans", arial, sans-serif;
+  text-align: center;
+  
+}
+  
+.detalles_articulo {
+  background: #6e702d;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 10px;
+  width: 90px;
+  heigth:100
+}
+
+.articulo:hover .imagen_articulo {
+  margin-top: -120px;
+}
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools.js"></script>
+<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--<link rel="stylesheet" href="css/bootstrap.min.css">   -->
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilospagnueva.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+	
+	
+	
+	
+	
+	
+
+
+
+<meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<meta charset="utf-8" />
+
+<meta charset="iso-8559-1"/>
+<meta charset="description" content="xixo teotihuacan" />
+<meta charset="keywprds" content="piramides,xixoteotihuacan,San Juan teotihuacan, teotihuacan, cultura, arte, divercion, pagina oficial xixoteotihuacan,xixoteotihuacan,cultura arte y divercion, vive xixo, teotihuacan de noche, xixo partybus,un lugar para divertirse en teotihuacan"  />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Load Bootstrap css-->
+<link rel="stylesheet" href="complementos/css/bootstrap-social.css"/>
+<link rel="stylesheet" href="complementos/css/bootstrap-social.less"/>
+<link rel="stylesheet" href="complementos/css/font-awesome.css"/>
+<link rel="stylesheet" href="complementos/css/bootstrap.css"/>
+<!--<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/99221691/xixoteotihucan/boostrapsocial/fontawesome-webfont.eot"/>
+<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/99221691/xixoteotihucan/boostrapsocial/fontawesome-webfont.ttf"/>
+<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/99221691/xixoteotihucan/Philosopher-Bold.ttf/>
+
+<!--Load Bootstrap css-->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <!--load font awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <!--Carousel-->
-    <link rel="stylesheet" href="complementos/css/carrouselparaxixo.css"/>
-    <link rel="stylesheet" href="complementos/js/javacarrouselxixo.js"/>
-    <link rel="stylesheet" href="complementos/css/carrousel3d.css"/>
-    <link rel="stylesheet" href="complementos/css/mainx.css"/>
+<link rel="stylesheet" href="complementos/css/carrouselparaxixo.css"/>
+<link rel="stylesheet" href="complementos/js/javacarrouselxixo.js"/>
+<link rel="stylesheet" href="complementos/css/carrousel3d.css"/>
+<link rel="stylesheet" href="complementos/css/mainx.css"/>
+<!--<link rel="stylesheet" href="c:/paginaxixo/mainx.css"/>-->
 
-  </head>
-  <body >
-    <div id="fb-root"></div>
-    <header>  
-      <nav class="navbarxixo navbar-inverse navbar-static-top" role="navigation">
-        <div class="container">
-        <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-xixo">
-        <span class="sr-only"> Desplegar / Ocultar Menu</span> 
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-        <a href="#" class= "navbar-narge"><center><img src="images/LOGOOTUMBAultimo.png"  width="350" height="110"></center></a>
-        </div>
-        
-        <!--inicia el menu ok-->
-        <div class="collapse navbar-collapse" id="navegacion-xixo">
+<link rel="stylesheet" href="complementos/css/footerxixo.css"/>
 
-          <ul class="nav navbar-nav">
-          
-              
-            <li CLASS="active"><a href="images/fondoconglifovivamexico1200x960.jpg" data-lightbox="galeria" data-title="<h1>Reseña</h1> <p class=text-justify>Se dice que es un pueblo indígena que habita un territorio discontinuo en el centro de México, aun que en realidad  aun sigue habiendo muchas personas con  rasgos autóctonos otomíes  y podríamos definir al Otumbense como: una persona  dedicada, zagas, valiente capaz de defender  sus principios e ideales que lucha por cada día ser mejor, que le importa su democracia, que siempre busca el bien común, pero sobre todo que quiere un mejor México pues de ahí provenimos.<br> ">Un Otomi<div class=" col-xs-12 col-md-6 col-lg-4" >
-                    
-                  <img src="" alt="" class="img-responsive </p>"></a>
-            </div></li>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--CASCADA-->
+
+	<meta charset="utf-8">
+	
+	<link href="complementos/css/jquery-ui.css" rel="stylesheet">
+	<style>
+	body{
+	    
+		font: 62.5% "Philosopher;", sans-serif;
+		margin: 20px;
+	}
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	select {
+		width: 200px;
+	}
+	
+	</style>
+<!--aqui mado a yamar las librerias boostrap-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--<link rel="stylesheet" href="css/bootstrap.min.css">   -->
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="complementos/css/estilosxixo.css">
+	
+<link rel="stylesheet" href="complementos/css/bootstrap-social.css">
+    <link rel="stylesheet" href="complementos/css/lightbox.css">
+<!--aqui terminan las estilos y librerias boostrap-->
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="complementos/css/estiloglovito.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<style>
+
+
+.articulo1, .articulo_jquery1, .articulo_mootools1, .detalles_articulo33 {
+  position: relative;
+  width: 200px;
+  height: 550px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background:#000000;
+  border-radius:30px 0px 30px 0px;
+  background-image: url("images/temascal.jpg")
+  
+}
+  
+.articulo1 a, .articulo_jquery1 a, .articulo_mootools1, .detalles_articulo33 a{
+  text-decoration: none;
+  color: #000;
+  
+}
+.imagen_articulo1, .detalles_articulo1  {
+  padding: 10px;
+  height: 550px;
+}
+  
+.imagen_articulo1, .detalles_articulo1  {
+  padding: 10px;
+  height: 300px;
+}
+  
+.imagen_articulo1 {
+  margin-top: 0;
+  background: #0000;
+
+  -webkit-transition-property: margin-left;
+  -webkit-transition-duration: .5s;
+  
+  -moz-transition-property: margin-left;
+  -moz-transition-duration: .5s;
+  
+  -o-transition-property: margin-left;
+  -o-transition-duration: .5s;
+  
+  -ms-transition-property: margin-left;
+  -ms-transition-duration: .5s;
+ 
+  
+
+}
+
+
+.imagen_articulo1 h3 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Open Sans", arial, sans-serif;
+  text-align: center;
+}
+  
+.detalles_articulo1 {
+  /*background: #1a9e5e;*/
+  color: #eeeeee;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.detalles_articulo33 {
+background: #cc0000;
+  color: #57d824;
+  font-family: Arial;
+  font-size: 12px;
+
+
+}
+
+.articulo1:hover .imagen_articulo1 {
+  margin-left: 200px;
+}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools.js"></script>
+
+
+<!-- Attach our CSS -->
+	  	<link rel="stylesheet" href="complementos/css/reveal.css">	
+	  	
+		<!-- Attach necessary scripts -->
+	    <script type="text/javascript" src="complementos/js/jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="complementos/js/jquery.reveal.js"></script>
+		
+		<script type="text/javascript" src="complementos/js/jquery-1.4.4.min.js"></script>
+
+	
+	
+
+	<!--inicia escala de grises-->
+
+</head>
+<div id="fb-root"></div>
+
+<body >
+		
+		
+<header>
+		<style>
+		.navbarxixo{
+		background:#1b3a23;
+		}
+		</style>	  
+  <nav class="navbarxixo navbar-inverse navbar-static-top" role="navigation">
+     <div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-xixo">
+		 <span class="sr-only"> Desplegar / Ocultar Menu</span> 
+		 <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+		 </button>
+		 <a href="#" class= "navbar-narge"><center><img src="images/LOGOOTUMBAultimo.png"  width="350" height="110"></center></a>
+		 </div>
+		 
+		 <!--inicia el menu ok-->
+		 <div class="collapse navbar-collapse" id="navegacion-xixo">
+		   <ul class="nav navbar-nav">
+		   
+		       
+			   <li CLASS="active"><a href="images/fondoconglifovivamexico1200x960.jpg" data-lightbox="galeria" data-title="<h1>Reseña</h1> <p class=text-justify>Se dice que es un pueblo indígena que habita un territorio discontinuo en el centro de México, aun que en realidad  aun sigue habiendo muchas personas con  rasgos autóctonos otomíes  y podríamos definir al Otumbense como: una persona  dedicada, zagas, valiente capaz de defender  sus principios e ideales que lucha por cada día ser mejor, que le importa su democracia, que siempre busca el bien común, pero sobre todo que quiere un mejor México pues de ahí provenimos.<br> ">Un Otomi<div class=" col-xs-12 col-md-6 col-lg-4" >
+                
+               <img src="" alt="" class="img-responsive </p>"></a>
+			   </div></li>
+			   
+			   <li class="dropdown">
+			       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+				  <SPAN CLASS="glyphicon glyphicon-question-sign"></SPAN> ¿Quienes Somos?<span class="caret"></span>
+				   </a>
+				   <ul class="dropdown-menu" role="menu">
+				   
+				        <li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1> objetivo </h1> <p class=text-justify><h3>“Otumba de Gómez Farías” es una página de aspecto municipal en donde el principal objetivo es promover los lugares más hermosos de nuestro bello Otumba, así como Anunciar los pequeños y medianos negocios en nuestra comunidad, así como también generar la derrama económica a causa del turismo obtenido, “Otumba de Gómez Farías” dará a conocer balnearios, parques recreativos, centros culturales, hoteles y comercios en general y estos estarán publicados en la página web “Otumba de Gómez Farías”</h3> "><p class=text-justify><br> 
+Objeivo<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img href="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+						<li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1>Misión</h1><p class=text-justify><h3>Nuestra misión será dar a conocer los centros turísticos de Otumba, impulsando el comercio para generar derrama económica en nuestro municipio,  también quitar la mala administración de una página web municipal monopolizada, en donde nadie puede publicar sus propios intereses, en “Otumba de Gomes Farías”  daremos la oportunidad a la población en general para que  pueda publicar artículos,  noticias, organizaciones, empresas y funja como patrocinador, artesano o participante.</h3>"><p class=text-justify><br>   
+Misión<br><div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
+						<li class="divider"></li>
+						<li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1>Visión </h1> <p class=text-justify><h3>Nuestra visión será crearle a todos los municipios del valle de Teotihuacán su propia página web municipal impulsando el turismo en cada municipio, promoviendo los lugares más atractivos que se encuentren a sus alrededores.<br><br>
+No te dejes engañar!!! “Otumba de Gómez Farías”  es y será una página de iniciativa privada de aspecto comercial,  la cual estará representada por nuestros patrocinadores y co-fundadores, además tendremos controlado y programado un ranking-web de aceptabilidad el cual será publicado en la pagina y redes sociales de “Otumba de Gómez Farías”</h3>
+"><p class=text-justify><br> 
+Visión <br><div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
+						</ul>
+						</li>
+			   
+			  <!-- <li class="dropdown">
+			       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+				   Servicio<span class="caret"></span>
+				   </a>
+				   <ul class="dropdown-menu" role="menu">
+				       
+						 <li><a href="images/glorieta2.jpg" data-lightbox="galeria" data-title= "<H1>Hotel & Motel “La Glorieta</H1><br> Dirección: calle Leona vicario, rumbo axapusco, Otumba, estado de México <br>telefono:01-592-92-21148   "<p class=text-justify>  
+                         Hospedaje<div class=" col-xs-12 col-md-6 col-lg-4" >
+						 <a href="images/glorieta4.jpg" data-lightbox="galeria" data-title= "Hotel & Motel “La Glorieta" ><p class=text-justify><img src="" alt="" class="img-responsive </p>"></a>
+                         </a>
+						
+						 </div></li> 
             
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              <SPAN CLASS="glyphicon glyphicon-question-sign"></SPAN> ¿Quienes Somos?<span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-              
-                    <li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1> objetivo </h1> <p class=text-justify><h3>“Otumba de Gómez Farías” es una página de aspecto municipal en donde el principal objetivo es promover los lugares más hermosos de nuestro bello Otumba, así como Anunciar los pequeños y medianos negocios en nuestra comunidad, así como también generar la derrama económica a causa del turismo obtenido, “Otumba de Gómez Farías” dará a conocer balnearios, parques recreativos, centros culturales, hoteles y comercios en general y estos estarán publicados en la página web “Otumba de Gómez Farías”</h3> "><p class=text-justify><br> 
-    Objeivo<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img href="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                <li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1>Misión</h1><p class=text-justify><h3>Nuestra misión será dar a conocer los centros turísticos de Otumba, impulsando el comercio para generar derrama económica en nuestro municipio,  también quitar la mala administración de una página web municipal monopolizada, en donde nadie puede publicar sus propios intereses, en “Otumba de Gomes Farías”  daremos la oportunidad a la población en general para que  pueda publicar artículos,  noticias, organizaciones, empresas y funja como patrocinador, artesano o participante.</h3>"><p class=text-justify><br>   
-    Misión<br><div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
-                <li class="divider"></li>
-                <li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1>Visión </h1> <p class=text-justify><h3>Nuestra visión será crearle a todos los municipios del valle de Teotihuacán su propia página web municipal impulsando el turismo en cada municipio, promoviendo los lugares más atractivos que se encuentren a sus alrededores.<br><br>
-    No te dejes engañar!!! “Otumba de Gómez Farías”  es y será una página de iniciativa privada de aspecto comercial,  la cual estará representada por nuestros patrocinadores y co-fundadores, además tendremos controlado y programado un ranking-web de aceptabilidad el cual será publicado en la pagina y redes sociales de “Otumba de Gómez Farías”</h3>
-    "><p class=text-justify><br> 
-    Visión <br><div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
-                </ul>
-                </li>
-            
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              Valle de Teotihuacán<span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-              
-                    <li><a href="images/xixofototeoroja.jpg" data-lightbox="galeria" data-title="San Juan Teotihuacan <br> <p class=text-justify><br>La cultura Teotihuacana se extendió en su época de esplendor hasta 22 km, los hoy municipios aledaños a la enigmática Ciudad Antigua de Teotihuacan, guardan parte de sus secretos  ¡Vive una experiencia Xixo! Y conoce a profundidad las maravillas del Valle de Teotihuacan en nuestras distintas rutas.<BR><BR>Teotihuacán<BR><BR>
-    Es la zona arqueológica más visitada de México. La civilización teotihuacana permanece envuelta en misterio, pues se conoce relativamente poco acerca de la también llamada “Ciudad de los dioses”. 
-    En nuestros recorridos lúdicos nocturnos podrás admirar la espectacularidad de Teotihuacan iluminada por la Experiencia Nocturna o Luz y Sonido. " >San Juan Teotihuacan<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                <li><a href="images/sanmartin.jpg"  data-lightbox="galeria" data-title="San Martín de las Pirámides<br> <p class=text-justify><br>San Juan Teotihuacan Y San Martín de las Pirámides<BR><BR>
-    Son los Pueblos Mágicos que circundan la Zona Arqueológica, podrás encontrar casas coloniales, fiestas tradicionales, iglesias, danzas propias de la región, gastronomía típica, artesanías.
-    En estos municipios se llevan a cabo también la Feria de la Obsidiana y la Feria de la Tuna. ">San Martín de las Pirámides<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                <li><a href="images/nopaltepec.jpg"  data-lightbox="galeria" data-title="Nopaltepec <br> <p class=text-justify><br>Los registros más antiguos de asentamientos humanos en el territorio que hoy pertenece a Nopaltepec datan del periódo clásico en las culturas mesoamericanas, época en la cual la zona estuvo bajo domino de Teotihuacán, estos pobladores acabaron abandonando la zona.<br><br> 
-    Fue la  ruta prehispánica por donde se conducía el pescado fresco desde el mar a la mesa de Moctezuma pasaba por Nopaltepec. Éste era el camino más corto entre el Golfo de México y la gran Tenochtitlán. Por lo tanto, los mensajeros mexicas utilizaban continuamente esta ruta.<br> <br> 
-    Es en Nopaltepec donde se construyeron los Arcos del Padre Tembleque famosa obra civil y hoy patrimonio de la humanidad, cuyo objetivo era proveer a Otumba de agua. ">Nopaltepec<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                          <li class="divider"></li>
-                      <li><a href="images/otumbaentrada.jpg"  data-lightbox="galeria" data-title="Otumba<br> <p class=text-justify><br>Otumba posee herencia prehispánica y colonial, es el pueblo más antiguo del Valle y  lugar donde en su territorio se encuentra  el enigmático el Convento de Oxtotipac, ataviado de elementos  románicos y renacentistas y al interior decorado por las manos de artesanos otomíes.<br><br>
-    Aquí  nació  pintor Gonzalo Carrasco, alumno de José María Velasco. La que antes fuera la hermosa casa del pintor hoy es La Casa de Cultura, y reconocida como la más bella del Estado de México. El Palacio Municipal, Burrolandía, La Casa de Virreyes, La Iglesia de la Purísima Concepción, donde vivió el Padre Tembleque,  El Museo del Ferrocarril y la Casa de Lola “La China”, creadora de la afamada Feria del Burro, son puntos obligados de visita. ">Otumba<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                      <li><a href="images/axapuxco.jpg"  data-lightbox="galeria" data-title="Axapuxco, Estado de México <br> <p class=text-justify><h1></H1><br>Los frailes franciscanos llegan en 1533 al municipio, y una de sus primeras tareas es 
-        la construcción de una capilla en el barrio de Tlamapa, para iniciar la evangelización 
-        de Axapusco, sin embargo pronto resultó insuficiente para ello, dándose a la tarea los 
-        mismo frailes de trazar una iglesia mayor en la ahora cabecera municipal, para prestar 
-        los servicios religiosos como mayor comodidad a la creciente población. A la iglesia se 
-        le puso el nombre San Esteban protomártir y fue adornada con una pintura traída de España 
-        por Bartolomé de Olmedo, a petición de los indígenas a Hernán Cortés. Es en 1553 cuando es 
-        trazada e iniciada su construcción.<br><br>
-    Hoy Axapuxco cuenta también con un bonito mercado gastronómico y su gran Feria de Cactáceas. ">Axapuxco<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                      <li><a href="images/acolman.jpg"  data-lightbox="galeria" data-title="Acolman, Estado, de México<br> <p class=text-justify><br>Municipio de legado virreinal poseedor de la joya monumental inigualable del 
-        Ex Convento de San Agustín. Igualmente con herencia Prehispánica e igualmente 
-        prehistórica, pues en sus entrañas aun habitan los restos del famoso 
-        “Hombre de Tepexpan” ">Acolman<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
+	                     <li class="divider"></li>
+	            	      <li><a href="images/comer.jpg" data-lightbox="galeria" data-title="<h1>Restaurante Punto y Coma </h1><br>Dirección: Porfirio Díaz #10, Otumba, estado de México <br>telefono:Fijo: 5929220344 <BR> Celular: 5573409966"<p class=text-justify> 
+                         Restaurante<div class=" col-xs-12 col-md-6 col-lg-4" >
+						 </a>
+						 </div></li>
+						
+                   		<li class="divider"></li>
+	            	       <li><a href="images/comer.jpg"" class="" data-reveal-id="myModal3">Tours</a></li>
+                   	</ul>
+	           </li>-->
+			   
+			   <li class="dropdown">
+			       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+				  Valle de Teotihuacán<span class="caret"></span>
+				   </a>
+				   <ul class="dropdown-menu" role="menu">
+				   
+				        <li><a href="images/xixofototeoroja.jpg" data-lightbox="galeria" data-title="San Juan Teotihuacan <br> <p class=text-justify><br>La cultura Teotihuacana se extendió en su época de esplendor hasta 22 km, los hoy municipios aledaños a la enigmática Ciudad Antigua de Teotihuacan, guardan parte de sus secretos  ¡Vive una experiencia Xixo! Y conoce a profundidad las maravillas del Valle de Teotihuacan en nuestras distintas rutas.<BR><BR>Teotihuacán<BR><BR>
+ Es la zona arqueológica más visitada de México. La civilización teotihuacana permanece envuelta en misterio, pues se conoce relativamente poco acerca de la también llamada “Ciudad de los dioses”. 
+En nuestros recorridos lúdicos nocturnos podrás admirar la espectacularidad de Teotihuacan iluminada por la Experiencia Nocturna o Luz y Sonido. " >San Juan Teotihuacan<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+						<li><a href="images/sanmartin.jpg"  data-lightbox="galeria" data-title="San Martín de las Pirámides<br> <p class=text-justify><br>San Juan Teotihuacan Y San Martín de las Pirámides<BR><BR>
+Son los Pueblos Mágicos que circundan la Zona Arqueológica, podrás encontrar casas coloniales, fiestas tradicionales, iglesias, danzas propias de la región, gastronomía típica, artesanías.
+En estos municipios se llevan a cabo también la Feria de la Obsidiana y la Feria de la Tuna. ">San Martín de las Pirámides<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+						<li><a href="images/nopaltepec.jpg"  data-lightbox="galeria" data-title="Nopaltepec <br> <p class=text-justify><br>Los registros más antiguos de asentamientos humanos en el territorio que hoy pertenece a Nopaltepec datan del periódo clásico en las culturas mesoamericanas, época en la cual la zona estuvo bajo domino de Teotihuacán, estos pobladores acabaron abandonando la zona.<br><br> 
+Fue la  ruta prehispánica por donde se conducía el pescado fresco desde el mar a la mesa de Moctezuma pasaba por Nopaltepec. Éste era el camino más corto entre el Golfo de México y la gran Tenochtitlán. Por lo tanto, los mensajeros mexicas utilizaban continuamente esta ruta.<br> <br> 
+Es en Nopaltepec donde se construyeron los Arcos del Padre Tembleque famosa obra civil y hoy patrimonio de la humanidad, cuyo objetivo era proveer a Otumba de agua. ">Nopaltepec<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+	                     <li class="divider"></li>
+	            	 	<li><a href="images/otumbaentrada.jpg"  data-lightbox="galeria" data-title="Otumba<br> <p class=text-justify><br>Otumba posee herencia prehispánica y colonial, es el pueblo más antiguo del Valle y  lugar donde en su territorio se encuentra  el enigmático el Convento de Oxtotipac, ataviado de elementos  románicos y renacentistas y al interior decorado por las manos de artesanos otomíes.<br><br>
+Aquí  nació  pintor Gonzalo Carrasco, alumno de José María Velasco. La que antes fuera la hermosa casa del pintor hoy es La Casa de Cultura, y reconocida como la más bella del Estado de México. El Palacio Municipal, Burrolandía, La Casa de Virreyes, La Iglesia de la Purísima Concepción, donde vivió el Padre Tembleque,  El Museo del Ferrocarril y la Casa de Lola “La China”, creadora de la afamada Feria del Burro, son puntos obligados de visita. ">Otumba<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+	            	 	<li><a href="images/axapuxco.jpg"  data-lightbox="galeria" data-title="Axapuxco, Estado de México <br> <p class=text-justify><h1></H1><br>Los frailes franciscanos llegan en 1533 al municipio, y una de sus primeras tareas es 
+	  la construcción de una capilla en el barrio de Tlamapa, para iniciar la evangelización 
+	  de Axapusco, sin embargo pronto resultó insuficiente para ello, dándose a la tarea los 
+	  mismo frailes de trazar una iglesia mayor en la ahora cabecera municipal, para prestar 
+	  los servicios religiosos como mayor comodidad a la creciente población. A la iglesia se 
+	  le puso el nombre San Esteban protomártir y fue adornada con una pintura traída de España 
+	  por Bartolomé de Olmedo, a petición de los indígenas a Hernán Cortés. Es en 1553 cuando es 
+	  trazada e iniciada su construcción.<br><br>
+Hoy Axapuxco cuenta también con un bonito mercado gastronómico y su gran Feria de Cactáceas. ">Axapuxco<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+	            	 	<li><a href="images/acolman.jpg"  data-lightbox="galeria" data-title="Acolman, Estado, de México<br> <p class=text-justify><br>Municipio de legado virreinal poseedor de la joya monumental inigualable del 
+	  Ex Convento de San Agustín. Igualmente con herencia Prehispánica e igualmente 
+	  prehistórica, pues en sus entrañas aun habitan los restos del famoso 
+	  “Hombre de Tepexpan” ">Acolman<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
 
-      </ul>
-                      
-            <!--<li ><a href="#">Valle de Teotihuacan</a></li>-->
-      
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              <SPAN CLASS="glyphicon glyphicon-question-sign"></SPAN> Anúnciate <BR> en esta pagina<span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-              
-                    <li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1> Opciones </h1> <p class=text-justify><h3>puedes formar parte de en este sitio web como:<br><br>1.- Patrocinador<br>2.-Negocio (PYME)<br>3.-Participante <br>4.-Artesano<br></h2> "><p class=text-justify><br> 
-    ¿Cuáles son las opciones para<br>entrar en Otumba Online? <div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img href="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                <li><a href="images/patrosinador.jpg" data-lightbox="galeria" data-title="<h1>se un patrocinador: </h1><p class=text-justify><h3>para ser patrocinador ¡es muy fácil! solo requieres pagar una pequeña cuota la cual será utilizada para dar el mantenimiento pertinente a los apartados del sitio web “Otumba online”“Otumba de Gómez Farías” dicha cuota será acordada entre las dos partes (“representante o dueño de la pagina y la persona que quiere ser patrocinador”).</h3>"><p class=text-justify><br>   
-    ¿Cómo puedo ser  patrocinador?<br><div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
-                <li class="divider"></li>
-                <li><a href="images/anunciatepatrosinador.jpg" data-lightbox="galeria" data-title="<h1>patrocinador: </h1> <p class=text-justify><h3>Como patrocinador prácticamente es como si tuvieras una página web versátil a tu servicio, la cual te apoyara en la promoción y difusión de tus organizaciones privadas, sindicatos, productos, asociaciones civiles, PYMES  y organizaciones sociales, contaras con una columna de noticias para que puedan ser publicadas tus actividades y  eventos, además el logotipo de tu empresa u organización será publicado en el área de patrocinadores que se encuentra en la parte inferior de nuestra web. </h3>  "><p class=text-justify><br> 
-    ¿A que tengo derecho como patrocinador? <br><div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
-                <li class="divider"></li>
-                <li><a href="images/anunciate.jpg" data-lightbox="galeria" data-title="<h1>Anuncia tu negocio!!!: </h1><p class=text-justify><h3>Podrás ser anunciado en el apartado de negocios y tendrás derecho a 2 o 3 fotografías para anunciar tú negocio, se anexara tu dirección y teléfono para que puedas ser contactado. Y tendrás que pagar una cuota mínima mensual, para mantenimiento del sitio web “OtumbaOnline”“Otumba de Gómez Farías”</h3>"><p class=text-justify><br>  
-    ¿Cómo anuncio mi PYME (“negocio”)<br>En este sitio web?<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                <li><a href="images/participante.jpg" data-lightbox="galeria" data-title="<h1>Participante:!!!: </h1><p class=text-justify><h3>Como participante podrás mandar ideas innovadoras en tu materia (carrera o especialidad) referentes al sitio web (diseño, logos, Fotos etc)  “Otumba de Gómez Farías” y nosotros analizaremos las propuestas si tu propuesta es buena la publicaremos en el sitio web “OtumbaOnline” anexando un link para que proporcione tus datos y fotografía si así lo deseas completamente gratis.</h3>"><p class=text-justify><br>   
-    ¿Cómo puedo ser participante? <br> entrar a “Otumba Online”?<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                <li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1>Artesano</h1><BR><BR><h3> Si tú eres artesano y vives en Otumba o sus alrededores,  puedes anunciarte en esta página completamente gratis, solo contáctanos en el teléfono: 5654563713  y nosotros te decimos como hacerlo.</h3> <br><h1>Que estas esperando anúnciate ahora!!</h1>" <p class=text-justify><br> 
-    ¿Cómo me anuncio como artesano? <div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
-                
-                
+	</ul>
+								  
+			   <!--<li ><a href="#">Valle de Teotihuacan</a></li>-->
+	
+        <li class="dropdown">
+			       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+				  <SPAN CLASS="glyphicon glyphicon-question-sign"></SPAN> Anúnciate <BR> en esta pagina<span class="caret"></span>
+				   </a>
+				   <ul class="dropdown-menu" role="menu">
+				   
+				        <li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1> Opciones </h1> <p class=text-justify><h3>puedes formar parte de en este sitio web como:<br><br>1.- Patrocinador<br>2.-Negocio (PYME)<br>3.-Participante <br>4.-Artesano<br></h2> "><p class=text-justify><br> 
+¿Cuáles son las opciones para<br>entrar en Otumba Online? <div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img href="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+						<li><a href="images/patrosinador.jpg" data-lightbox="galeria" data-title="<h1>se un patrocinador: </h1><p class=text-justify><h3>para ser patrocinador ¡es muy fácil! solo requieres pagar una pequeña cuota la cual será utilizada para dar el mantenimiento pertinente a los apartados del sitio web “Otumba online”“Otumba de Gómez Farías” dicha cuota será acordada entre las dos partes (“representante o dueño de la pagina y la persona que quiere ser patrocinador”).</h3>"><p class=text-justify><br>   
+¿Cómo puedo ser  patrocinador?<br><div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
+						<li class="divider"></li>
+						<li><a href="images/anunciatepatrosinador.jpg" data-lightbox="galeria" data-title="<h1>patrocinador: </h1> <p class=text-justify><h3>Como patrocinador prácticamente es como si tuvieras una página web versátil a tu servicio, la cual te apoyara en la promoción y difusión de tus organizaciones privadas, sindicatos, productos, asociaciones civiles, PYMES  y organizaciones sociales, contaras con una columna de noticias para que puedan ser publicadas tus actividades y  eventos, además el logotipo de tu empresa u organización será publicado en el área de patrocinadores que se encuentra en la parte inferior de nuestra web. </h3>  "><p class=text-justify><br> 
+¿A que tengo derecho como patrocinador? <br><div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
+						<li class="divider"></li>
+						<li><a href="images/anunciate.jpg" data-lightbox="galeria" data-title="<h1>Anuncia tu negocio!!!: </h1><p class=text-justify><h3>Podrás ser anunciado en el apartado de negocios y tendrás derecho a 2 o 3 fotografías para anunciar tú negocio, se anexara tu dirección y teléfono para que puedas ser contactado. Y tendrás que pagar una cuota mínima mensual, para mantenimiento del sitio web “OtumbaOnline”“Otumba de Gómez Farías”</h3>"><p class=text-justify><br>  
+¿Cómo anuncio mi PYME (“negocio”)<br>En este sitio web?<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+						<li><a href="images/participante.jpg" data-lightbox="galeria" data-title="<h1>Participante:!!!: </h1><p class=text-justify><h3>Como participante podrás mandar ideas innovadoras en tu materia (carrera o especialidad) referentes al sitio web (diseño, logos, Fotos etc)  “Otumba de Gómez Farías” y nosotros analizaremos las propuestas si tu propuesta es buena la publicaremos en el sitio web “OtumbaOnline” anexando un link para que proporcione tus datos y fotografía si así lo deseas completamente gratis.</h3>"><p class=text-justify><br>   
+¿Cómo puedo ser participante? <br> entrar a “Otumba Online”?<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+						<li><a href="images/LOGOOTUMBAdegomezfariaz.jpg" data-lightbox="galeria" data-title="<h1>Artesano</h1><BR><BR><h3> Si tú eres artesano y vives en Otumba o sus alrededores,  puedes anunciarte en esta página completamente gratis, solo contáctanos en el teléfono: 5654563713  y nosotros te decimos como hacerlo.</h3> <br><h1>Que estas esperando anúnciate ahora!!</h1>" <p class=text-justify><br> 
+¿Cómo me anuncio como artesano? <div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
+						
+						
 
-      </ul>
-      
-      <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              <SPAN CLASS="glyphicon glyphicon-question-sign"></SPAN>¿Como llegar?<BR>hubicación<span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu"></li>			        
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30049.46080755933!2d-98.77272715327477!3d19.704848530303074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1c0b1f07469cd%3A0x67a05c57edf58d06!2sOtompan%2C+State+of+Mexico!5e0!3m2!1sen!2smx!4v1550343412621" width="600" height="450" frameborder="0"  style="border:0" allowfullscreen></iframe>	
-      </ul>
-      
-      <li><a href="https://www.facebook.com/OtumbadeGomezFariaz/?modal=admin_todo_tour" class="btn btn-social-icon btn-lg btn-github" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"><i class="fa fa-facebook"></i></a></li>
-      
-    <!-- <li><a href="https://www.facebook.com/OtumbadeGomezFariaz/?modal=admin_todo_tour" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'Twitter']);"><span class="fa fa-twitter"></span> Twitter</a></li>-->
-      
-      <li><a href=""><span class="glyphicon glyphicon-earphone" ><font face="Philosopher,arial,verdana">Móvil: 044-56-10-35-77-73</font><br><span class="glyphicon glyphicon-phone-alt"> <font face="Philosopher,arial,verdana">Fijo: 5610357773</font></a></li>
-      
-      <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-              <SPAN CLASS="glyphicon glyphicon-question-sign"></SPAN>¿Co-Fundadores?<span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-              
-                    <li> 
-    Emma Franco Rojas<div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img href="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                <li class="divider"></li>
-                <li>   
-    Agustín Ramírez Garcia<br><div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
-                <li class="divider"></li>
-                <li> 
-    Martín Contla Aco <br><div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
-                <li class="divider"></li>
-                <li> 
-    Pedro Alberto Aguilar A.<br><div class=" col-xs-12 col-md-6 col-lg-4" >
-                            <img src="" alt="" class="img-responsive </p>"></a>
-                      </div></li>
-                
-                </ul>
-                </li>
-      
-      
-      
-      
-          </ul>
-        </div>
-      </div>
-      
-      </nav>
-      
-    </header>
+	</ul>
+	
+   <li class="dropdown">
+			       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+				  <SPAN CLASS="glyphicon glyphicon-question-sign"></SPAN>¿Como llegar?<BR>hubicación<span class="caret"></span>
+				   </a>
+				   <ul class="dropdown-menu" role="menu"></li>			        
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30049.46080755933!2d-98.77272715327477!3d19.704848530303074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1c0b1f07469cd%3A0x67a05c57edf58d06!2sOtompan%2C+State+of+Mexico!5e0!3m2!1sen!2smx!4v1550343412621" width="600" height="450" frameborder="0"  style="border:0" allowfullscreen></iframe>	
+	</ul>
+	
+  <li><a href="https://www.facebook.com/OtumbadeGomezFariaz/?modal=admin_todo_tour" class="btn btn-social-icon btn-lg btn-github" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"><i class="fa fa-facebook"></i></a></li>
+  
+ <!-- <li><a href="https://www.facebook.com/OtumbadeGomezFariaz/?modal=admin_todo_tour" onclick="_gaq.push(['_trackEvent', 'exit', 'footer', 'Twitter']);"><span class="fa fa-twitter"></span> Twitter</a></li>-->
+  
+  <li><a href=""><span class="glyphicon glyphicon-earphone" ><font face="Philosopher,arial,verdana">Móvil: 044-56-10-35-77-73</font><br><span class="glyphicon glyphicon-phone-alt"> <font face="Philosopher,arial,verdana">Fijo: 5610357773</font></a></li>
+  
+  <li class="dropdown">
+			       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+				  <SPAN CLASS="glyphicon glyphicon-question-sign"></SPAN>¿Co-Fundadores?<span class="caret"></span>
+				   </a>
+				   <ul class="dropdown-menu" role="menu">
+				   
+				        <li> 
+Emma Franco Rojas<div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img href="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						<li class="divider"></li>
+						<li>   
+Agustín Ramírez Garcia<br><div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
+						<li class="divider"></li>
+						<li> 
+Martín Contla Aco <br><div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
+						<li class="divider"></li>
+						<li> 
+Pedro Alberto Aguilar A.<br><div class=" col-xs-12 col-md-6 col-lg-4" >
+                         <img src="" alt="" class="img-responsive </p>"></a>
+			            </div></li>
+						
+						</ul>
+						</li>
+  
+  
+  
+  
+		  </ul>
+		</div>
+	</div>
+	
+	</nav>
+	
+</header>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>	
+<script src="C:\otumbapa2\complementos\js\lightbox.js"></script>
 
 <section class="jumbotron-xixo"> 
+<style>
+    .jumbotron-xixo {
+    margin-bottom: 0px;
+    background-image: url();
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#8fd75a;
+	height: 250px;
+	background-color:#204b2b;
+	background-image:url("images/Otomí_quexquémittl.jpg");
+background-position : center; 
+
+ }
+ 
+ .modal{
+
+ height:100%;
+
+ }
+ 
+ 
+}
+
+@media all and (max-width: 1600px){
+.letrastitulo{
+font-size:50px;
+  
+ }
+ 
+
+   
+    .body{
+	
+        
+		font-family:Philosopher-Bold.ttf; 
+        margin:auto;
+		
+		-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+         }
+}
+ 
+ 
+ 
+	.letrastitulo{
+ 
+ font-size:30px;
+ }
+ 
+.img {
+    width:100%;
+    
+}
+.titulojumbo{
+color:#ffffff;
+
+}
+}
+
+ 
+</style>
   <div class="container">
   <div class="col-xs-12 col-md-7 col-lg-12">
   <div class="titulojumbo">
@@ -535,6 +939,38 @@ distrito electoral local.
 
 
 </section>
+<style>
+	
+
+
+	</style>
+	
+<style>
+	.visitar{
+
+	 TEXT-ALIGN:justify; 
+	 font-family: "Philosopher","Philosopher", "Philosopher", "Philosopher";
+	 background:#ffffff;
+	 background-image:url("images/fondoprimario.jpg");
+	  background-color:000000;
+		
+		font-family:Philosopher-Bold.ttf;  
+
+
+background-position : center; 
+background-attachment : fixed; 	
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-size: contain;
+
+background-repeat: no-repeat;
+
+}
+
+
+	</style>
 
 <div class="visitar">
        
@@ -580,6 +1016,41 @@ distrito electoral local.
   </div>
 	
   </div class="visitar">
+  
+	
+<style>
+.carousel{
+background:#ffffff;
+width:100%;
+
+
+border-radius:10px 20px 20px 10px; 
+box-shadow: 0px 0px 30px #ffffff; 
+-moz-box-shadow: 0px 0px 30px #ffffff; 
+-webkit-box-shadow: 0px 0px 30px #ffffff;   
+border: 1px solid #fff;
+
+}
+
+</style>
+<style>
+.letrastitulo{
+color:#000000;
+
+}
+.contieneseccion{
+background:#e4e7f5;
+background-image:url("images/fondoconglifo1500X900.jpg");
+background-position : center; 
+background-attachment : fixed; 	
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+</style>
 
 <section class="contieneseccion">
 
@@ -1192,7 +1663,7 @@ background-position : center;
 
   <div class=" col-xs-12 col-md-6 col-lg-4">
    <center><h4 class="lead ">FERIAS DE LOS ALREDEDORES</h4></center>
-    <img src="images/museo.jpg" alt="" class="img-responsive img-circle">
+    <img src="img/museoferr.jpg" alt="" class="img-responsive img-circle">
     <p class="medium text-justify">1 de enero<br>
 Fiesta Patronal en Sta. Ma. Belem Tecalco, que se caracteriza por una gran celebración donde se
 Presenta Jaripeo, Charreadas, Elenco Artístico, y Baile Popular con artistas de gran renombre
@@ -1611,7 +2082,90 @@ background-repeat: no-repeat;
 
 
 </footer></center>
+
+
+
+         
+
+
+<!--<section >
+    </div>
+	<div  id="envoltura"><center>
+	  <section id="misection">	
+                              
+                           <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+                           <script type="text/javascript" src="jssor.slider.debug.js"></script>
+                           <script type="text/javascript" src="jssor.slider.min.js"></script>
+                           <script type="text/javascript" src="jssor.slider.mini.js"></script>
+       	<aside class="barra_lateral">
+	 <div class="articulo_jquery" >
+  <a href="https://www.google.com.mx/maps/dir/19.70585,-98.753785/Otumba+de+G%C3%B3mez+Far%C3%ADas,+M%C3%A9x./@19.6978993,-98.7688403,14z/data=!4m10!4m9!1m1!4e1!1m5!1m1!1s0x85d1c0b1f07469cd:0x67a05c57edf58d06!2m2!1d-98.75751!2d19.6988525!3e0"  >
+    <div class="imagen_articulo">
+      <img src="comollegar100x100.png" width="80" height="60" alt=""/><br><br><br><br>
+      <br><h3>¿Cómo llegar?</h3> <br>
+    </div>
+    <div class="detalles_articulo">
+      <p><b>Esta es la ruta para llegar <b></p>
+    </div>
+  </a>
+</div><br>
+
+ <div class="articulo_jquery">
+ <a href="#"  onclick="historia()">
+    <div class="imagen_articulo">
+      <img src="historia.png" width="80" height="60" alt="" /><BR><BR><BR><BR>
+      <br><h3>Historia </h3> <br>
+    </div>
+    <div class="detalles_articulo">
+      <p><b>Nuestra historia<b><BR></p>
+    </div>
+  </a>
+</div> <br>
+
+
+
+ <div class="articulo_jquery">
+ <a  href="class="big-link" data-reveal-id="myModal11">
+    <div class="imagen_articulo">
+      <img src="ferias8080.png" width="80" height="60" alt=""/><BR><BR><BR><BR>
+      <br><h3><strong>Próximas ferias</strong></h3> <br>
+    </div>
+    <div class="detalles_articulo">
+      <p>Descubre las festividades </p>
+    </div>	
+  </a>
+</div><br>  
 	
+ <div class="articulo_jquery">
+ <a href="" class="big-link" data-reveal-id="myModal12">
+    <div class="imagen_articulo">
+      <img src="quevisitar.png"  width="80" height="60" alt="" /><BR><BR><BR><BR>
+      <br><h3>Te recomendamos que visites los siguientes lugares</h3>
+    </div>
+    <div class="detalles_articulo">
+      <p><b><b></p>
+    </div>
+  </a>
+</div><br>
+
+ <div class="articulo_jquery">
+ <a href="" class="big-link" data-reveal-id="myModal12">
+    <div class="imagen_articulo">
+      <a href="class="big-link" data-reveal-id="myModal13" >
+      <img src="iglesias100x100.png"  width="80" height="60" alt="" /><BR><BR><BR><BR>
+      <br><h3>Iglesias que puedes visitar</h3> <br>
+    </div>
+    <div class="detalles_articulo">
+      <p><b><b></p>
+    </div>
+  </a>
+</div>		
+				
+		</section>!-->
+				
+
+
+			
 
 	
 
@@ -1647,7 +2201,11 @@ box-shadow: 0px 8px 10px #939393;}
 	
 	
 	</style>
-		
+	
+<script type="text/javascript" src="jquery12.js"></script>
+<script type="text/javascript" src="cycle.js"></script>	
+
+	
 <script type="text/jscript">
 $(document).ready(function()
 {
@@ -1759,6 +2317,12 @@ window.addEvent("domready", function() {
 		</script>
 		
 	</head>
+	
+	<style type="text/css">
+		ul#demo-block{ margin:0 15px 15px 15px; }
+			ul#demo-block li{ margin:0 0 10px 0; padding:5px; display:inline; float:left; clear:both; color:#aaa; background:url('img/bg-black.png'); font:11px Helvetica, Arial, sans-serif; }
+			ul#demo-block li a{ color:#eee; font-weight:bold; }
+	</style>
 
 	<!--Thumbnail Navigation-->
 	<div id="prevthumb"></div>
@@ -1772,6 +2336,11 @@ window.addEvent("domready", function() {
 		<div id="thumb-back"></div>
 		<div id="thumb-forward"></div>
 	</div>
+	
+	
+	
+	
+
 
 </html>
 
